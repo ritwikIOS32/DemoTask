@@ -16,6 +16,14 @@
 		62FDBBE928B632F9002BF1D8 /* PWCTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FDBBE828B632F9002BF1D8 /* PWCTaskTests.swift */; };
 		62FDBBF328B632F9002BF1D8 /* PWCTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FDBBF228B632F9002BF1D8 /* PWCTaskUITests.swift */; };
 		62FDBBF528B632F9002BF1D8 /* PWCTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FDBBF428B632F9002BF1D8 /* PWCTaskUITestsLaunchTests.swift */; };
+		62FDBC0328B63703002BF1D8 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FDBC0128B63703002BF1D8 /* HomeScreenViewController.swift */; };
+		62FDBC0428B63703002BF1D8 /* HomeScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62FDBC0228B63703002BF1D8 /* HomeScreenViewController.xib */; };
+		62FDBC0728B65DDF002BF1D8 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FDBC0528B65DDF002BF1D8 /* HomeCollectionViewCell.swift */; };
+		62FDBC0828B65DDF002BF1D8 /* HomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62FDBC0628B65DDF002BF1D8 /* HomeCollectionViewCell.xib */; };
+		62FDBC0B28B6830C002BF1D8 /* TopCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FDBC0928B6830C002BF1D8 /* TopCollectionViewCell.swift */; };
+		62FDBC0C28B6830C002BF1D8 /* TopCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62FDBC0A28B6830C002BF1D8 /* TopCollectionViewCell.xib */; };
+		62FDBC0F28B6A888002BF1D8 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FDBC0D28B6A888002BF1D8 /* SignUpViewController.swift */; };
+		62FDBC1028B6A888002BF1D8 /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62FDBC0E28B6A888002BF1D8 /* SignUpViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		62FDBBEE28B632F9002BF1D8 /* PWCTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PWCTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62FDBBF228B632F9002BF1D8 /* PWCTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PWCTaskUITests.swift; sourceTree = "<group>"; };
 		62FDBBF428B632F9002BF1D8 /* PWCTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PWCTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		62FDBC0128B63703002BF1D8 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		62FDBC0228B63703002BF1D8 /* HomeScreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeScreenViewController.xib; sourceTree = "<group>"; };
+		62FDBC0528B65DDF002BF1D8 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		62FDBC0628B65DDF002BF1D8 /* HomeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCollectionViewCell.xib; sourceTree = "<group>"; };
+		62FDBC0928B6830C002BF1D8 /* TopCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCollectionViewCell.swift; sourceTree = "<group>"; };
+		62FDBC0A28B6830C002BF1D8 /* TopCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopCollectionViewCell.xib; sourceTree = "<group>"; };
+		62FDBC0D28B6A888002BF1D8 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		62FDBC0E28B6A888002BF1D8 /* SignUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +118,14 @@
 				62FDBBD128B632F4002BF1D8 /* AppDelegate.swift */,
 				62FDBBD328B632F4002BF1D8 /* SceneDelegate.swift */,
 				62FDBBD528B632F4002BF1D8 /* ViewController.swift */,
+				62FDBC0D28B6A888002BF1D8 /* SignUpViewController.swift */,
+				62FDBC0E28B6A888002BF1D8 /* SignUpViewController.xib */,
+				62FDBC0528B65DDF002BF1D8 /* HomeCollectionViewCell.swift */,
+				62FDBC0928B6830C002BF1D8 /* TopCollectionViewCell.swift */,
+				62FDBC0A28B6830C002BF1D8 /* TopCollectionViewCell.xib */,
+				62FDBC0628B65DDF002BF1D8 /* HomeCollectionViewCell.xib */,
+				62FDBC0128B63703002BF1D8 /* HomeScreenViewController.swift */,
+				62FDBC0228B63703002BF1D8 /* HomeScreenViewController.xib */,
 				62FDBBD728B632F4002BF1D8 /* Main.storyboard */,
 				62FDBBDA28B632F9002BF1D8 /* Assets.xcassets */,
 				62FDBBDC28B632F9002BF1D8 /* LaunchScreen.storyboard */,
@@ -231,7 +255,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62FDBC0C28B6830C002BF1D8 /* TopCollectionViewCell.xib in Resources */,
+				62FDBC0828B65DDF002BF1D8 /* HomeCollectionViewCell.xib in Resources */,
+				62FDBC1028B6A888002BF1D8 /* SignUpViewController.xib in Resources */,
 				62FDBBDE28B632F9002BF1D8 /* LaunchScreen.storyboard in Resources */,
+				62FDBC0428B63703002BF1D8 /* HomeScreenViewController.xib in Resources */,
 				62FDBBDB28B632F9002BF1D8 /* Assets.xcassets in Resources */,
 				62FDBBD928B632F4002BF1D8 /* Main.storyboard in Resources */,
 			);
@@ -258,7 +286,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62FDBC0B28B6830C002BF1D8 /* TopCollectionViewCell.swift in Sources */,
+				62FDBC0F28B6A888002BF1D8 /* SignUpViewController.swift in Sources */,
+				62FDBC0728B65DDF002BF1D8 /* HomeCollectionViewCell.swift in Sources */,
 				62FDBBD628B632F4002BF1D8 /* ViewController.swift in Sources */,
+				62FDBC0328B63703002BF1D8 /* HomeScreenViewController.swift in Sources */,
 				62FDBBD228B632F4002BF1D8 /* AppDelegate.swift in Sources */,
 				62FDBBD428B632F4002BF1D8 /* SceneDelegate.swift in Sources */,
 			);
@@ -445,6 +477,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -456,7 +489,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -473,6 +506,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -484,7 +518,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
